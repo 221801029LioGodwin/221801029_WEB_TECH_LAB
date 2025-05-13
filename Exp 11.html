@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Effects</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<button id="btn">Fade Toggle</button>
+<div id="box" style="width:100px;height:100px;background:red;"></div>
+
+<script>
+  $(document).ready(function(){
+    $("#btn").click(function(){
+      $("#box").fadeToggle();
+    });
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Selector</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<h2 class="highlight">Click me to hide</h2>
+<p class="highlight">This is a paragraph.</p>
+
+<script>
+  $(document).ready(function(){
+    $(".highlight").click(function(){
+      $(this).hide();
+    });
+  });
+</script>
+
+</body>
+</html>
